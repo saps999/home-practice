@@ -9,11 +9,11 @@ public class HomePractice {
         System.out.println("Enter 2nd number: ");
         int b = sc.nextInt();
         if (a<b){
-            System.out.println("if block executed");
+            System.out.println(a + "<" + b);
         } else if (a>b) {
-            System.out.println("else-if block executed");
+            System.out.println(a + ">" + b);
         } else {
-            System.out.println("else block executed");
+            System.out.println(a + "=" + b);
         }
     }
 

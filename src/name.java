@@ -11,6 +11,8 @@ public class name {
         int input2 = sc.nextInt();
         System.out.println(input2);
         int output = input1 + input2;
-        System.out.println(output);
+        System.out.print(output);
+        System.out.print("\n");
+        System.out.print("okk");
     }
 }
